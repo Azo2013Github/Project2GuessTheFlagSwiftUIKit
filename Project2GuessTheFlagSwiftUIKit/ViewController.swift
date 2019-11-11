@@ -65,7 +65,7 @@ class ViewController: UIViewController {
             title = "Wrong the response is not correct "
             self.score -= 1
         }
-        // the part of Alert to show message if user click in the button
+        // the part of Alert to show message if user 
         let ac = UIAlertController(title: title, message: "Your score is \(score).", preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
         present(ac, animated: true)
